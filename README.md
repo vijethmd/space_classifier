@@ -9,9 +9,3 @@ A machine learning web application that classifies astronomical objects from the
 - **Real SDSS Data**: Trained on actual astronomical data
 - **Model Comparison**: See how different algorithms perform
 
-## 🛠️ Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/space-classifier.git
-cd space-classifier
