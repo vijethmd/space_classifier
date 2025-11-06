@@ -1,0 +1,40 @@
+# Inside .gitignore file
+# Virtual environment
+space_env/
+
+# Model files (they're large - train them instead of uploading)
+*.pkl
+*.h5
+*.joblib
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+
+# Plotly credentials
+.plotly/
+
+# Training outputs (images, etc.)
+*.png
+*.jpg
+training_history.png
+data_visualization.png
+feature_importance.png
+confusion_matrix_*.png
